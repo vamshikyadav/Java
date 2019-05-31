@@ -1,6 +1,8 @@
 package junk2;
 
-public class Base {
+import conditional.Package_Test;
+//import conditional.*;
+public class Sorting {
 	 static int gcd(int a, int b) 
 	    { 
 	        if (a == 0) 
@@ -23,7 +25,10 @@ public class Base {
 	        int n = arr.length; 
 	        System.out.println(findGCD(arr, n)); 
 	        
-		// TODO Auto-generated method stub
+		// Below is the calling form another package
+	        
+	        Package_Test PT = new Package_Test();
+	        PT.a();
 		
 	}
 

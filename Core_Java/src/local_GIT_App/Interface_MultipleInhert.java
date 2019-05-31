@@ -17,13 +17,19 @@ class inherit implements one, two{
 }
 
 
-public class Interface_MultipleInhert {
-
+public class Interface_MultipleInhert extends AccessModifiers {
+	
+	// below is the program to specify the default void compile time error
+	public void AM(){System.out.println("Value is ovewrite");}
 	public static void main(String[] args) {
 		// Below is the calling for bothe of the class
 		inherit obj = new inherit();
 		obj.print();
 		obj.Show();
+		
+	
+		
+		
 
 	}
 
